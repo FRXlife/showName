@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('世界上|最 |可爱的|人|是|#rectangle|#countdown 3|雷婷|');
+      S.UI.simulate('世界上|最|可爱的|人|是|#rectangle|#countdown 3|雷婷|');
     }
 
     S.Drawing.loop(function () {
